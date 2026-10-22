@@ -1,0 +1,18 @@
+#computer-cards,
+#player-cards {
+    display: flex;
+    gap: 12px;
+}
+
+.card {
+    width: 70px;
+    height: 100px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    background: #c0392b;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
